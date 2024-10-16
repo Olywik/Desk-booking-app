@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desk Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Desk Booking System</h1>
+    <div id="desk-container"></div>
+    <form id="booking-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <select id="desk-select" required></select>
+        <input type="date" id="booking-date" required>
+        <button type="submit">Book Desk</button>
+    </form>
+    <h2>Current Bookings</h2>
+    <ul id="booking-list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
